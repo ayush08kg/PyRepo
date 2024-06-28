@@ -4,7 +4,6 @@ api_key="9378ed4e6c4b4387ad8f2ea8f09ceff1"
 #file handling
 try:
     file = open("pro1.txt","r")
-    file = open("pro1.txt","r")
     data = file.read()
 # All IPs used inside text file is valid except the last one
     sp = data.split()
