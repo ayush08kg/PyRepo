@@ -19,7 +19,7 @@ try:
             print()
         else:
         #Last IP is madeup to run this block
-            print(f"Request ERROR: {response.status_code}")
+            print(f"IP not found: {response.status_code}")
 
 except IOError:
     print("File access problem")
